@@ -12,5 +12,7 @@ namespace CriandoBlockchain
         public string Data { get; set; }
         public string Hash { get; set; }
         public string PreviousHash { get; set; }
+        public int Difficulty { get; set; }
+        public int Nonce { get; set; }
     }
 }
